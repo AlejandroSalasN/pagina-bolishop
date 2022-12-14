@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <%- include('../partials/head'); %>
+</head>
+
+<body>
+    <div class="contenedor_total">
+        <header>
+            <%- include('../partials/header'); %>
+        </header>
+        <main class="">
+            <div class="row justify-content-center">
+                <div class="row card contendor_sign">
+                    <h4>INICIAR SESIÓN</h4>
+                    <form action="" method="" class="justify-content-center col-12">
+                        <div class="col-11 buscador align-self-center registro">
+                            <label>Nombre:</label>
+                            <input type="text" name="nombre" placeholder="Nombre" class="" required/>
+                        </div>
+                        <div class="col-11 buscador align-self-center registro">
+                            <label>Correo electrónico:</label>
+                            <input type="email" name="email" placeholder="Correo electrónico" class="" required/>
+                        </div>
+                        <div class="col-11 buscador align-self-center registro">
+                            <label>Contraseña:</label>
+                            <input type="password" name="password" placeholder="Contraseña" class="" required/>
+                        </div>
+                        <div class="col-11 align-self-end registro">
+                            <button type="submit" class="boton boton_sign">Iniciar sesión</button>
+                        </div>
+                    </form>
+
+                    <div class="col-11 row justify-content-between align-self-center registro">
+                        <a href="" class="col olvidaste">Olvidaste tu contraseña</a>
+                        <a href="/signup" class="col crear_cuenta">Crear cuenta</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+
+</html>

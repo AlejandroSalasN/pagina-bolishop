@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <%- include('../partials/head'); %>
+</head>
+
+<body>
+    <div class="contenedor_total">
+        <header>
+            <%- include('../partials/header'); %>
+        </header>
+        <main class="">
+            <div class="row justify-content-center">
+                <div class="row card contendor_sign">
+                    <h4>REGISTRARSE</h4>
+                    <form action="/users/create" method="post" class="justify-content-center col-12">
+                        <div class="col-11 buscador align-self-center registro">
+                            <label>Nombre:</label>
+                            <input type="text" name="nombre" placeholder="Nombre" class="" required />
+                        </div>
+                        <div class="col-11 buscador align-self-center registro">
+                            <label>Apellido:</label>
+                            <input type="text" name="apellido" placeholder="Apellido" class="" required />
+                        </div>
+                        <div class="col-11 buscador align-self-center registro">
+                            <label>Correo electrónico:</label>
+                            <input type="email" name="email" placeholder="Correo electrónico" class="" required />
+                        </div>
+                        <div class="col-11 buscador align-self-center registro">
+                            <label>Contraseña:</label>
+                            <input type="password" name="password" placeholder="Contraseña" class="" required/>
+                        </div>
+                        <div class="col-11 align-self-center registro">
+                            <button type="submit" class="boton boton_sign">Crear usuario</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <div class="select">
+            <select>
+                <option value="">CATEGORÍAS</option>
+                <option value="opcion-1">Accesorios para mujeres</option>
+                <option value="opcion-2">Artículos electrónicos</option>
+                <option value="opcion-3">Tomatodo</option>
+            </select>
+        </div>
+    </div>
+</body>
+
+</html>

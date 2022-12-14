@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <%- include('../partials/head'); %>
+</head>
+
+<body>
+
+    <div class="contenedor_total">
+        <header>
+            <%- include('../partials/header'); %>
+        </header>
+
+        <div class="row">
+            <div class="col-3">
+                <%- include('../partials/lateral'); %>
+            </div>
+            <main class="col-8">
+                <form action="/users/" method="get">
+                    <h1>Usuarios</h1>
+                    <ul>
+                        <% for (user of foundusers) { %>
+
+                            <li>
+                                <%= user.nombre %>
+                            </li>
+
+                            <% } %>
+                    </ul>
+                </form>
+
+            </main>
+        </div>
+    </div>
+
+    <footer>
+        <%- include('../partials/footer'); %>
+    </footer>
+
+</body>
+
+</html>

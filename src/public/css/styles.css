@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+}
+
+.contenedor_total {
+    margin: 0 50px 24px 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.buscador input {
+    border-radius: 20px;
+    max-width: 380px;
+    max-height: 50px;
+    width: 380px;
+    height: 50px;
+    padding: 20px;
+    border-style: none;
+    background-color: #d9d9d9;
+}
+
+.seccion_buscador {
+    justify-content: center;
+    align-items: center;
+}
+
+.carrito {
+    display: flex;
+    width: auto;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.seccion_sesion {
+    display: flex;
+    padding: auto;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/*navegacion*/
+
+.navegacion a {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.navegacion a:hover {
+    color: #f3b334;
+}
+
+/* signup */
+
+label {
+    font-size: 20px;
+    color: #1b2040;
+    margin-left: 20px;
+    ;
+}
+
+.boton {
+    color: #fff;
+    background-color: #1b2040;
+}
+
+.boton:hover {
+    border: 2px solid #f3b334;
+    color: #f3b334;
+}
+
+.boton_sign {
+    font-size: 14;
+    border-radius: 20px;
+    width: 190px;
+    max-width: 190px;
+    height: 50px;
+    max-height: 50px;
+}
+
+.registro {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.registro a {
+    font-size: 14px;
+}
+
+.registro .olvidaste {
+    color: #dd3636;
+}
+
+.registro .crear_cuenta {
+    color: #1b2040;
+}
+
+.contendor_sign {
+    width: 600px;
+    max-width: 30rem;
+    height: auto;
+    max-height: 660px;
+    background-image: url("../assets/fondo_sign.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.contendor_sign h4 {
+    text-align: center;
+    color: #1b2040;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.contenedor_about h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #f3b334;
+}
+
+.contenedor_about .about_div {
+    margin: 1.3rem 0;
+}
+
+.contenedor_about p {
+    font-size: 1.3rem;
+    color: #1b2040;
+}
+
+/*footer*/
+
+.pie_pagina {
+    padding: 10px 50px 10px 50px;
+    margin-top: 24px;
+    background-color: #1b2040;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+}
+
+.pie_pagina p,
+.pie_pagina a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.pie_pagina a,
+.pie_pagina p {
+    font-size: 20px;
+}
+
+/*seleccionar*/
+
+.select {
+    width: 250px;
+    overflow: hidden;
+}
+
+
+.select select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    appearance: none;
+}
